@@ -4,9 +4,30 @@
     flex-direction: column;
     justify-content: center;
     height: 80vh;
-
+    user-select: none;
+    position: relative;
+    perspective: 1000px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    animation: zoom-in 10s ease-in-out;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
 
 }
+
+@keyframes zoom-in {
+  
+    0% {
+        transform: translate(-50%, -50%) scale(0.9); 
+        opacity: 1; 
+      }
+      100% {
+        transform: translate(-50%, -50%) scale(1); 
+        opacity: 1; 
+      }
+}
+
 
 .intro {
     align-items: left;
@@ -14,7 +35,9 @@
     flex-direction: column;
     color: #FFF;
     margin-left: 6px;
-    font-size: 30px
+    font-size: 30px;
+
+    
 }
 
 .frontEnd {
@@ -23,7 +46,6 @@
     display: flex;
     flex-direction: column;
     color: #FFF;
-
     margin-bottom: -25px;
 
 }
@@ -35,4 +57,99 @@
     flex-direction: column;
     size: 1px;
     color: #FFF;
+
+}
+
+.icons{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.icon{
+    margin-left: 20px;
+    margin-right: 5px;
+    color: #FFF;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+@media (max-width:810px) {
+
+    .frontEnd {
+        
+        font-size: 50px;
+        align-items: left;
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        margin-bottom: -20px;
+        user-select: none;
+    }
+
+    .developer {
+        font-size: 60px;
+        align-items: left;
+        display: flex;
+        flex-direction: column;
+        size: 1px;
+        color: #FFF;
+        user-select: none;
+
+        
+    }
+
+    .intro {
+        align-items: left;
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        margin-left: 2px;
+        font-size: 20px;
+        user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+
+        
+    }
+
+    .profile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+        user-select: none;
+        
+    }
+    .icon{
+        
+        margin-left: 5px;
+        margin-right: 3px;
+        color: #FFF;
+        font-size: 22px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .icons{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+   
+    
+
+  
 }
