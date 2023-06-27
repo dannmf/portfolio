@@ -1,0 +1,38 @@
+.profile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+
+
+}
+
+.intro {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    margin-left: 6px;
+    font-size: 30px
+}
+
+.frontEnd {
+    font-size: 100px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+
+    margin-bottom: -25px;
+
+}
+
+.developer {
+    font-size: 120px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    size: 1px;
+    color: #FFF;
+}

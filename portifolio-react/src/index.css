@@ -3,3 +3,11 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #440a0a, #802c2c);
+
+}

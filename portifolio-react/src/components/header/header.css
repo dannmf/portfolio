@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.leftSide {
+    margin-right: 16px;
+
+}
+
+.rightSide {
+    display: flex;
+}
+
+.module {
+    margin-left: 16px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF;
+
+}
