@@ -1,0 +1,11 @@
+.about-container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 230vh; /* Define a altura do container para ocupar toda a altura da página */
+  }
+
+  
+
+

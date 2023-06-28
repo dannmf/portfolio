@@ -1,3 +1,5 @@
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,7 +11,7 @@
 }
 
 .leftSide {
-    margin-right: 16px;
+    margin-left: -20px;
 
 }
 

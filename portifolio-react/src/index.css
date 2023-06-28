@@ -5,10 +5,17 @@
 }
 
 .App {
+  
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-image: linear-gradient(to bottom, #440a0a, #802c2c);
 
 }
+
+
+
+
+
+
 

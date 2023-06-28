@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+
 .profile {
     align-items: center;
     display: flex;
@@ -8,7 +10,7 @@
     position: relative;
     perspective: 1000px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    animation: zoom-in 10s ease-in-out;
+    animation: zoom-in 1s ease-in-out;
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
@@ -36,6 +38,7 @@
     color: #FFF;
     margin-left: 6px;
     font-size: 30px;
+    
 
     
 }
@@ -68,10 +71,10 @@
 .icon{
     margin-left: 20px;
     margin-right: 5px;
+    border: 0;
     color: #FFF;
     font-size: 30px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
     user-select: none;
     -moz-user-select: none;
     user-select: none;
@@ -79,6 +82,8 @@
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+
 @media (max-width:810px) {
 
     .frontEnd {
@@ -128,7 +133,6 @@
         
     }
     .icon{
-        
         margin-left: 5px;
         margin-right: 3px;
         color: #FFF;

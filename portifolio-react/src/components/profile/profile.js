@@ -11,7 +11,7 @@ function Profile() {
             <div className='container'>
                 <h3 className='intro' >  
                 <div>
-                    Olá, eu me chamo Daniel
+                    Olá 👋 eu me chamo Daniel
                     <span className = 'icons'>
                     <a href='https://github.com/dannmf' target='_blank'><BsGithub className = 'icon'/></a>
                     <a href='https://www.linkedin.com/in/dannmf/' target='_blank'><BsLinkedin className = 'icon'/></a>
